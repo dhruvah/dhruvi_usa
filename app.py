@@ -172,14 +172,20 @@ trip3 = st.radio("Choose your final weekend destination:",
 
 if trip3 == "Lake Tahoe":
     st.image("https://i.imgur.com/C51zFcJ.jpeg", caption="Snowy serenity")
+    st.write("This is 4 hour drive from the Bay Area. It's like Lonavala for SF people, but funny enough I have never been. " \
+    "Whenever the murat of going to Tahoe comes up, something else also comes up. Maybe you can break this murat for me.")
 elif trip3 == "Yosemite":
     st.image("https://i.imgur.com/3PQKz5R.jpeg", caption="Majestic waterfalls and granite cliffs")
+    st.write("To show you the American outdoors! It's like a mini Mahabaleshwar but with more trees and less vada pav." )
 elif trip3 == "Big Sur & Monterey":
     st.image("https://i.imgur.com/eJpEC4I.jpeg", caption="Coastal curves and ocean breezes")
+    st.write("Beautiful restraunts, very fancy vibes and beautiful views. It's only 1.5 hours drive from the Bay Area. You might like this the best." )
+
 
 # --- Summary ---
 st.header("💌 Your Custom Itinerary Summary")
 
+st.write("There is a lot to do ofcourse, but this was just for fun, and I had a lot of fun making this. Hope you had fun too! 😊")
 st.markdown("### 📓 Your 3-Week USA Life Trial with Local Baba")
 
 st.markdown(f"**Satsangs attended:** {', '.join(satsang_choices) if satsang_choices else 'None 😇'}")
